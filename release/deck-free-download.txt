@@ -1,0 +1,25 @@
+Deck - one-hotkey themes for Windows 11 (free tier)
+====================================================
+
+Thank you for picking up Deck.
+
+Download the zip (98 MB) from the GitHub release:
+  https://github.com/bdonoho-coder/deck/releases/latest
+
+Install in short
+  1. Extract to a short path, for example C:\Deck, and keep it there.
+  2. In PowerShell inside that folder:
+       powershell -ExecutionPolicy Bypass -File .\install.ps1
+     It needs AutoHotkey v2 (https://www.autohotkey.com) and, for the Deck file manager,
+     Developer Mode (Settings > System > For developers).
+  3. Install Windhawk (https://windhawk.net) and its mods: Windows 11 Taskbar Styler,
+     Start Menu Styler, Notification Center Styler, File Explorer Styler, Resource Redirect.
+     Then merge windhawk-styles.reg once as admin.
+  4. Press Win+T and pick a theme.
+
+The README.md inside the zip has the full steps, the hotkeys and the undo list.
+
+Source and issues: https://github.com/bdonoho-coder/deck
+Deck file manager source: https://github.com/bdonoho-coder/deck-files
+
+Want the nine HUD themes (Red Alert, Neon Grid, Acid Signal and more)? They are the Deck HUD pack.
