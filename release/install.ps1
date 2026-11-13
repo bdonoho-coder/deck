@@ -10,6 +10,8 @@ param([switch]$SkipDeck)
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
 Set-Location $root
+Start-Transcript -Path "$root\install.log" -Append | Out-Null  # keeps a record of every run next to the scripts
+"Deck install $(Get-Date -Format s) as $env:USERNAME in $root"
 
 # 0. AutoHotkey v2 is required for the picker and the hotkeys.
 $ahk = Get-ChildItem "$env:LOCALAPPDATA\Programs\AutoHotkey\v2\AutoHotkey64.exe", "$env:ProgramFiles\AutoHotkey\v2\AutoHotkey64.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
@@ -69,7 +71,17 @@ if (-not $SkipDeck) {
     Add-AppxPackage "$root\deck-app\Microsoft.WindowsAppRuntime.2.msix" -ErrorAction SilentlyContinue
     Add-Type -AssemblyName System.IO.Compression.FileSystem
     [IO.Compression.ZipFile]::ExtractToDirectory($msix.FullName, $layout)
-    Add-AppxPackage -Register "$layout\AppxManifest.xml"
-    Write-Host "4. Deck registered: $((Get-AppxPackage Deck).PackageFamilyName)"
+    try {
+        Add-AppxPackage -Register "$layout\AppxManifest.xml"
+        Write-Host "4. Deck registered: $((Get-AppxPackage Deck).PackageFamilyName)"
+    } catch {
+        if ("$_" -match '0x80073CFB') {
+            # Windows allows one developer (loose-folder) registration of a package per PC. Another account has one.
+            Write-Host "4. Deck could not be registered: another account on this PC already has a developer install of Deck. Uninstall it there (Settings > Apps > Deck), then run install.ps1 again. Everything else is set up." -ForegroundColor Yellow
+        } else {
+            Write-Host "4. Deck could not be registered: $_" -ForegroundColor Yellow
+        }
+    }
 }
 Write-Host "Done. Press Win+T to pick a theme."
+Stop-Transcript | Out-Null

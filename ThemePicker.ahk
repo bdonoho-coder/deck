@@ -15,7 +15,7 @@ global Picker := ""
 global Fonts := [["bahnschrift", "BAHN"], ["chakra", "CHAKRA"], ["exo2", "EXO 2"]
     , ["rajdhani", "RAJDHANI"], ["oxanium", "OXANIUM"], ["saira", "SAIRA"]]
 ; Picker FILES row: look key written to current.ini (Deck reads it at start), button label.
-global Looks := [["auto", "AUTO"], ["hud", "HUD"], ["minimal", "MINIMAL"], ["dossier", "DOSSIER"], ["tree", "TREE"], ["deck", "DECK"], ["cyber", "CYBER"]]
+global Looks := [["auto", "AUTO"], ["hud", "HUD"], ["minimal", "MINIMAL"], ["dossier", "DOSSIER"], ["tree", "TREE"], ["deck", "CONSOLE"], ["cyber", "CYBER"]]  ; "deck" look is labeled CONSOLE: Deck is the app's name now
 
 ; Tell Deck (the file manager) where this folder is: it reads current.ini from here at start.
 DirCreate(EnvGet("LOCALAPPDATA") "\Deck")

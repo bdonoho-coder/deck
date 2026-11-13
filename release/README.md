@@ -37,6 +37,10 @@ Catppuccin Latte (light) and Amber Lab.
    theme's icon pack. It does not change which mods are installed.
 4. Press **Win+T** and pick a theme.
 
+The picker's **FILES** row picks the look of the Deck file manager. **AUTO** is the cyber look
+(open frames, places rail, file plates) for every theme. HUD, MINIMAL, DOSSIER, TREE, CONSOLE
+and CYBER force one look. Deck restarts when the look changes.
+
 Optional: Windows Terminal colors. Open Terminal settings, "Open JSON file", and add the
 schemes from `terminal-schemes.json` to the `schemes` list. The picker then switches the
 scheme with the theme.
