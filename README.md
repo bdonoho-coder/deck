@@ -45,6 +45,11 @@ py windhawk_styles.py
 py make_release.py
 ```
 
+## Support
+
+Deck is free. The [HUD pack](https://bransondonoho.gumroad.com/l/deck-hud) adds 9 sci-fi
+themes, and tips on [Ko-fi](https://ko-fi.com/branson91881) fund new themes.
+
 ## License
 
 Deck's own scripts and generated art are MIT, see [LICENSE](LICENSE). Third-party parts keep

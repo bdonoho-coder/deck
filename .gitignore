@@ -2,6 +2,8 @@
 # downloaded packs (LineX, niivu), Omarchy photos, builds and screenshots out.
 *
 !/.gitignore
+!/.github/
+!/.github/FUNDING.yml
 !/README.md
 !/LICENSE
 !/CREDITS.md

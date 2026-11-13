@@ -76,6 +76,11 @@ puts them back.
 - `deck-app/`: the Deck file manager package and its runtime.
 - `LICENSES/`, `CREDITS.md`, `NOTICE`: who made what, and under which license.
 
+## Support
+
+This tier is free. The HUD pack (bransondonoho.gumroad.com/l/deck-hud) adds 9 sci-fi themes.
+Tips on Ko-fi (ko-fi.com/branson91881) fund new themes.
+
 ## Credits
 
 Deck is built on Files, Omarchy, the Tokyo Night, Catppuccin, Nord, Everforest and Gruvbox
