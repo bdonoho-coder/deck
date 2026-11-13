@@ -1,0 +1,17 @@
+Deck
+Copyright (c) 2026 Branson Donoho
+
+This product includes software developed by the Files Community
+(https://github.com/files-community/Files), licensed under the MIT License and the
+Mozilla Public License 2.0.
+
+This product includes color values from tokyonight.nvim
+(https://github.com/folke/tokyonight.nvim), Copyright (c) Folke Lemaitre,
+licensed under the Apache License, Version 2.0. The values were converted to Windows
+accent colors, wallpapers and icon colors; the original files are not included and were
+modified in that sense.
+
+This product includes color values from Omarchy (https://github.com/basecamp/omarchy, MIT),
+Catppuccin (MIT), Nord (MIT), Everforest (MIT) and Gruvbox, and font files derived from
+Chakra Petch, Exo 2, Rajdhani, Oxanium and Saira (SIL Open Font License 1.1), and logos
+from Simple Icons (CC0 1.0). See CREDITS.md and the LICENSES folder.

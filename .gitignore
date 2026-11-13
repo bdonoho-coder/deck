@@ -1,0 +1,67 @@
+# Allow-list repo: everything is ignored unless named below. Keeps personal state,
+# downloaded packs (LineX, niivu), Omarchy photos, builds and screenshots out.
+*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CREDITS.md
+!/NOTICE
+
+# Scripts that make up the theme system
+!/ThemePicker.ahk
+!/Finder.ahk
+!/HudFrame.ahk
+!/DesktopScroll.ahk
+!/app_icons.ps1
+!/file_icons.py
+!/files-build.ps1
+
+# Generators (wallpapers, icons, fonts, Windhawk settings, logo, release packer)
+!/make_themes.py
+!/hud_wallpaper.py
+!/cyber_wallpaper.py
+!/theme_wallpaper.py
+!/make_folder_icons.py
+!/ico_res.py
+!/make_app_icons.py
+!/make_explorer_art.py
+!/make_fonts.py
+!/deck_logo.py
+!/windhawk_styles.py
+!/asset_audit.py
+!/make_release.py
+
+# Folder icon DLL project (no built .res / obj)
+!/iconpack/
+/iconpack/*
+!/iconpack/IconPack.csproj
+
+# Test helpers
+!/test-helpers/
+!/test-helpers/*.ps1
+
+# Release sources and license texts (the built zip stays out)
+!/release/
+/release/*
+!/release/README.md
+!/release/CREDITS.md
+!/release/NOTICE
+!/release/LICENSE
+!/release/install.ps1
+!/release/LICENSES/
+!/release/LICENSES/*
+
+# Inputs that are redistributable: OFL font sources, Omarchy palettes (not the photos), Simple Icons SVGs
+!/fonts/
+/fonts/*
+!/fonts/src/
+!/fonts/src/*
+!/omarchy-dl/
+/omarchy-dl/*
+!/omarchy-dl/*/
+/omarchy-dl/*/*
+!/omarchy-dl/*/colors.toml
+!/appicons/
+/appicons/*
+!/appicons/src/
+!/appicons/src/*

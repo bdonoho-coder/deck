@@ -1,0 +1,32 @@
+# HUD Amber Control: own theme from the user's HUD reference picture 3. Amber and green on black-olive.
+mode = "dark"
+
+accent = "#ffb81c"
+selection = "#3a2e0e"
+muted = "#5c5a48"
+
+background = "#0e0f0b"
+dark_background = "#090a07"
+darker_background = "#040503"
+lighter_background = "#1b1c15"
+
+foreground = "#e6dcb8"
+dark_foreground = "#8a8468"
+light_foreground = "#f0e8cc"
+bright_foreground = "#fff8e0"
+
+red = "#ff4a3c"
+yellow = "#ffb81c"
+orange = "#ff8c1a"
+green = "#3dff8a"
+cyan = "#5fd0c0"
+blue = "#6a9fd4"
+magenta = "#d47a9f"
+brown = "#7a5a14"
+
+bright_red = "#ff7466"
+bright_yellow = "#ffd060"
+bright_green = "#7affb0"
+bright_cyan = "#8ae4d8"
+bright_blue = "#8ab8e8"
+bright_magenta = "#e89abb"

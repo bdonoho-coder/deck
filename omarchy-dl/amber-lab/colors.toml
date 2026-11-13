@@ -1,0 +1,32 @@
+# Amber Lab: original theme (not from Omarchy). Near-black with amber light.
+mode = "dark"
+
+accent = "#ff8c1a"
+selection = "#3a2410"
+muted = "#5a4636"
+
+background = "#0d0b0a"
+dark_background = "#080706"
+darker_background = "#040303"
+lighter_background = "#1c1612"
+
+foreground = "#e8d5c0"
+dark_foreground = "#8a7560"
+light_foreground = "#f2e2cf"
+bright_foreground = "#fff3e6"
+
+red = "#ff5a3c"
+yellow = "#ffb547"
+orange = "#ff8c1a"
+green = "#b8c46a"
+cyan = "#5fb3b3"
+blue = "#6a9fd4"
+magenta = "#d47a9f"
+brown = "#7a4a24"
+
+bright_red = "#ff7a5c"
+bright_yellow = "#ffc966"
+bright_green = "#cdd88a"
+bright_cyan = "#7fcfcf"
+bright_blue = "#8ab8e8"
+bright_magenta = "#e89abb"

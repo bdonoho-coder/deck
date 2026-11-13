@@ -1,0 +1,32 @@
+# HUD Red Alert: own theme from the user's HUD reference picture 1. Red on near-black, gray headers.
+mode = "dark"
+
+accent = "#ff2d3a"
+selection = "#3a1216"
+muted = "#5a5f66"
+
+background = "#0b0c0e"
+dark_background = "#070809"
+darker_background = "#030304"
+lighter_background = "#17191d"
+
+foreground = "#d6d9de"
+dark_foreground = "#7d838c"
+light_foreground = "#e8eaee"
+bright_foreground = "#ffffff"
+
+red = "#ff2d3a"
+yellow = "#ffb02e"
+orange = "#ff6a2e"
+green = "#3ddc84"
+cyan = "#5fd0e0"
+blue = "#7d9fd4"
+magenta = "#ff5c8a"
+brown = "#6a2a24"
+
+bright_red = "#ff5c66"
+bright_yellow = "#ffc85c"
+bright_green = "#6ce8a4"
+bright_cyan = "#8ae0ec"
+bright_blue = "#a3bce4"
+bright_magenta = "#ff8aac"

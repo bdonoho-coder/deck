@@ -1,0 +1,3 @@
+Gruvbox color palette by Pavel Pertsev (https://github.com/morhetz/gruvbox).
+The upstream repository publishes no license file. Deck uses only the hex color values,
+taken from Omarchy's gruvbox theme (MIT, see Omarchy-MIT.txt), and no other Gruvbox files.

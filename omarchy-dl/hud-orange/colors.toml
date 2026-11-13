@@ -1,0 +1,32 @@
+# HUD Orange Ops: own theme from the user's HUD reference picture 2. Orange on slate blue-gray.
+mode = "dark"
+
+accent = "#ff5a1f"
+selection = "#4a2a1c"
+muted = "#5c6a78"
+
+background = "#18212b"
+dark_background = "#111820"
+darker_background = "#0b1016"
+lighter_background = "#232f3c"
+
+foreground = "#d8dee6"
+dark_foreground = "#8593a3"
+light_foreground = "#e6ebf0"
+bright_foreground = "#ffffff"
+
+red = "#ff4a3c"
+yellow = "#ffb547"
+orange = "#ff5a1f"
+green = "#7cc98a"
+cyan = "#6ab8d4"
+blue = "#7d9fd4"
+magenta = "#d47a9f"
+brown = "#7a3e24"
+
+bright_red = "#ff7466"
+bright_yellow = "#ffc966"
+bright_green = "#9cdcaa"
+bright_cyan = "#8ccde4"
+bright_blue = "#a3bce4"
+bright_magenta = "#e89abb"

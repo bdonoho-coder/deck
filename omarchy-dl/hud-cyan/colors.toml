@@ -1,0 +1,35 @@
+# HUD Cyan Panel: own theme from the user's HUD reference picture 4. Sky blue tabs, mint green text, black.
+mode = "dark"
+
+accent = "#5cb4e6"
+selection = "#12303f"
+muted = "#3e5a6a"
+
+background = "#05080a"
+dark_background = "#020405"
+darker_background = "#000000"
+lighter_background = "#0e171d"
+
+foreground = "#b8dcef"
+dark_foreground = "#5f8396"
+light_foreground = "#d0e8f4"
+bright_foreground = "#eef8ff"
+
+red = "#ff5a5a"
+yellow = "#e6d45c"
+orange = "#ff9a4a"
+green = "#46e08a"
+cyan = "#5cb4e6"
+blue = "#4a8fd4"
+magenta = "#b48ae6"
+brown = "#3a5a4a"
+
+bright_red = "#ff8080"
+bright_yellow = "#f0e488"
+bright_green = "#7aeeac"
+bright_cyan = "#8ccdf0"
+bright_blue = "#7aafe4"
+bright_magenta = "#cbaaf0"
+
+# HUD folder symbol color (mint, like the reference picture)
+hud_glyph = "#46e08a"

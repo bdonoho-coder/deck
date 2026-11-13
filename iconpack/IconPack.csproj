@@ -1,0 +1,10 @@
+<!-- Empty class library that only carries native icon resources (a .res file
+     from make_folder_icons.py). The Resource Redirect mod reads the icons from it. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>imageres</AssemblyName>
+    <Win32Resource>$(IconRes)</Win32Resource>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>
