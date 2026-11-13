@@ -1,0 +1,19 @@
+{
+  "size": [1920, 1200], "fps": 30,
+  "theme": {"accent": "#FFA028", "text": "#FFFFFF", "chip": "#0A0D12E0",
+            "title_font": "../../deck-free/fonts/hud/chakra-bold.ttf",
+            "body_font": "../../deck-free/fonts/hud/exo2-regular.ttf",
+            "mono_font": "../../deck-free/fonts/hud/oxanium-regular.ttf"},
+  "transition": {"type": "fade", "duration": 0.25},
+  "fade_out": 0.8,
+  "watermark": {"path": "logo.png", "height": 64, "corner": "br", "opacity": 0.9},
+  "segments": [
+    {"clip": "take6.mkv", "in": 2.6, "dur": 4.2, "hook": "One hotkey. Whole desktop."},
+    {"clip": "take6.mkv", "in": 11.2, "dur": 4.6, "title": "Nord"},
+    {"clip": "take6.mkv", "in": 19.8, "dur": 4.2, "title": "HUD  //  Cyan Panel"},
+    {"clip": "take6.mkv", "in": 28.4, "dur": 4.2, "title": "HUD  //  Red Alert"},
+    {"clip": "take6.mkv", "in": 37.1, "dur": 4.2, "title": "HUD  //  Acid Signal"},
+    {"clip": "take6.mkv", "in": 44.5, "dur": 3.0, "title": "Deck file manager follows every theme"},
+    {"card": {"title": "Deck", "sub": "16 themes for Windows 11  -  bransondonoho.gumroad.com/l/deck", "bg": "#0A0D12", "logo": "logo.png"}, "dur": 2.8, "watermark": false}
+  ]
+}

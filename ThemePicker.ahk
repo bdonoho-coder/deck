@@ -406,7 +406,9 @@ SetTerminalScheme(name) {
 }
 
 TellWindowsColorsChanged() {
-    for what in ["ImmersiveColorSet", "WindowsThemeElement"]
+    for what in ["ImmersiveColorSet", "WindowsThemeElement"] {
+        result := 0  ; a real variable for the out-param: a literal 0 here crashed with "Invalid memory read/write" (2026-11-13)
         DllCall("SendMessageTimeoutW", "Ptr", 0xFFFF, "UInt", 0x1A, "Ptr", 0, "Str", what
-            , "UInt", 2, "UInt", 1000, "Ptr*", 0)
+            , "UInt", 2, "UInt", 1000, "Ptr*", &result)
+    }
 }

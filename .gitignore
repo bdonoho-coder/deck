@@ -55,6 +55,15 @@
 !/release/gumroad-thumb.png
 !/release/LICENSES/
 !/release/LICENSES/*
+!/release/media/
+/release/media/*
+!/release/media/launch-posts.md
+!/release/media/src/
+/release/media/src/*
+!/release/media/src/*.ps1
+!/release/media/src/*.ahk
+!/release/media/src/*.json
+!/release/media/src/logo.png
 
 # Inputs that are redistributable: OFL font sources, Omarchy palettes (not the photos), Simple Icons SVGs
 !/fonts/
