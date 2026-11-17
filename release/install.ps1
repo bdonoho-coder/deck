@@ -63,7 +63,8 @@ if (-not $SkipDeck) {
         Start-Process 'ms-settings:developers'
         exit 1
     }
-    $msix = Get-ChildItem "$root\deck-app\Deck_*_x64.msix" | Select-Object -First 1
+    # Newest build first: an update extracted over an older folder leaves the old msix next to the new one.
+    $msix = Get-ChildItem "$root\deck-app\Deck_*_x64.msix" | Sort-Object { [version]($_.BaseName -replace '^Deck_|_x64$') } -Descending | Select-Object -First 1
     $layout = "$root\deck-app\layout"
     Get-Process Files -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "$layout*" } | Stop-Process -Force
     Get-AppxPackage Deck | Remove-AppxPackage -PreserveApplicationData
