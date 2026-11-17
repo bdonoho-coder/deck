@@ -18,7 +18,7 @@ from pathlib import Path
 import make_themes  # ANSI + THEMES, no side effects on import
 
 ROOT = Path(__file__).parent
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 OUT = ROOT / "release" / "deck-free"
 FREE = ["tokyo-night", "catppuccin", "gruvbox", "nord", "everforest", "catppuccin-latte", "amber-lab"]
 OWN_WALLPAPERS = {"7-ridges.jpg", "8-contours.jpg", "9-glow.jpg"}
